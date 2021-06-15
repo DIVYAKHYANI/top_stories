@@ -1,0 +1,67 @@
+/* font style imported from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+  background: #ffAA00;
+  background: #fA0;/*we can use three symbols if all 3 pairs are identical
+  for example #00ffaa --> #0fa */
+  color:rgba(255,280,200,1);/*changes the color of text*/
+  font-family:'Roboto Condensed',sans-serif;
+  font-weight:300 !important;
+  margin: 20px 30px;
+
+}
+
+body h1{
+  font-weight: 300;
+
+}
+
+h3
+{
+  color:#0ff;
+
+}
+
+body h4
+{
+  color:#000;
+}
+/*Element specifity*/
+body> header >h3{
+  background: #fff;
+}
+
+/*using id for the modification*/
+#main-header{
+  border-bottom: 2px solid #000;
+
+}
+
+#top-stories{
+  width=1000px;
+  margin:auto;
+  margin-top:20px;
+}
+
+article{
+  width:311px;
+  display:inline-block;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 10px;
+}
+
+article img{
+  max-width:100%;
+  height: 100px;
+}
+
+.article-image
+{
+  height:200px;
+  width:100%;
+  background-size:cover !important;
+  background-position:center !important;
+
+}
